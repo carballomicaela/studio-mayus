@@ -1,0 +1,441 @@
+ /* body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width 1920px){
+
+    .navbar-logo img {
+        height: 400px;
+        margin-left: 200%;
+    }
+
+    .Navegador {
+        margin: 30px 295px 30px 30px;
+    }
+}
+
+@media (max-width 800px) {
+    
+    .navbar-logo img {
+        height: 50px;
+
+    }
+
+    .Navegador {
+        margin: 10px;
+    }
+
+} */
+
+
+
+
+
+ .logo {
+     width: 129px;
+     height: 20px;
+ }
+
+ .anclas {
+     font-size: 1.3rem;
+     color: black;
+     text-transform: uppercase;
+     font-weight: 500;
+ }
+
+
+
+ .colorFondo {
+     background-color: white;
+ }
+
+
+
+ .nav-item-buttom a {
+     background-color: #0353EF;
+     border-radius: 0px;
+     color: white;
+ }
+
+ .nav-item-buttom a:hover {
+     color: white;
+ }
+
+ .nav-item-buttom {
+     align-items: center;
+
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ .nav-item-buttom img {
+     height: 16px;
+     padding-bottom: 3px;
+     padding-left: 10px;
+
+ }
+
+
+
+ .encabezado-servicios-dos {
+     height: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 70px;
+     margin-bottom: 30px;
+ }
+
+ .encabezado-servicios-dos img {
+     width: 10px;
+     height: 10px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 30px;
+ }
+
+ .encabezado-servicios-dos h3 {
+     text-align: center;
+     font-family: 'Albert Sans', sans-serif;
+     font-weight: 250px;
+     font-size: 18px;
+     text-transform: uppercase;
+ }
+
+
+
+ /**/
+
+ @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Anek+Gujarati&family=Marcellus&family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Anek+Gujarati&family=Marcellus&family=Plus+Jakarta+Sans:wght@200&family=Syne&display=swap');
+
+
+/*titulo cards home*/
+
+.card-completa-home button{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.titulo-cards-home {
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+}
+
+.card-final-home{
+    font-family: 'Albert Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.texto-card-home{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.card-completa-home-img{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/*nosotros*/
+
+.banner-nosotros{
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+}
+
+.titulo-nosotros{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-cards{
+    margin-bottom: 10px;
+}
+
+
+
+ .encabezado-uno{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.encabezado-uno img{
+    margin-left: 16%;
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.encabezado-uno h1{
+    margin-left: 25px;
+    text-align: left;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 250px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.divisor {
+    
+    border-top: solid black 1px; 
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    width: 68%;
+      
+  }
+
+  .columnas-div{
+    width: 102%;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+.card-title{
+    font-family: 'Syne', sans-serif;
+    font-size: 28px;
+    font-weight:bold;
+    margin-top: 40px;
+    
+}
+
+.card-text{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 18px;
+   
+    
+    
+}
+
+.column-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* nosotros */
+
+
+.h3-nosotros{
+    font-family: 'Syne', sans-serif;
+    font-weight:bold;
+    font-size: 24px;
+}
+
+.p-nosotros{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 16.5px;
+}
+
+.titulos img{
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    margin-right: 20px;
+    margin-top:5px;
+}
+
+
+
+.circulo{
+    width: 350px;
+    height: 350px;
+    background: #71A8FF;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 150px;
+}
+
+.circulo h2{
+    
+    color: black;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
+
+.botoncito{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+/*servicios*/
+
+.hrline{
+    border-left: solid 1px black;
+}
+
+.horas{
+    color: #0353EF;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.containerservicios{
+margin-bottom: 100px;
+margin-top: 50px;
+}
+
+/*proyectos*/
+
+.boton-proyectos button{
+    font-family: 'Albert Sans', sans-serif;
+    padding: 15px 35px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    background: #0353EF;
+    color: white;
+    justify-content: center;
+    border: none;
+}
+
+.divisor-2 {
+    
+    border-top: solid black 1px; 
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    width: 68%;
+      
+  }
+
+  .frase-proyectos{
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+  }
+
+  .autor-proyectos{
+    font-family: 'Albert Sans', sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    margin-bottom: 150px;
+  }
+
+  /*contacto*/
+  .encabezado-no{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.encabezado-no img{
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.encabezado-no h3{
+    margin-left: 25px;
+    text-align: left;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 250px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container-contacto{
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+
+.encabezado-contacto{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.encabezado-contacto img{
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+    margin-left: 16%;
+}
+
+.encabezado-contacto h3{
+    margin-left: 25px;
+    text-align: left;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 250px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.formulario-contacto{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton-contacto{
+    margin-bottom: 150px;
+}
